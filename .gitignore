@@ -1,0 +1,14 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+models/
+wandb/
+mlruns/
+data/chroma/
+data/interim/
+# dados grandes: versionados via DVC
+/data/raw
+/data/processed
+rules
+rules/
